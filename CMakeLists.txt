@@ -3,7 +3,7 @@ project(caketracer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(trace_lib STATIC trace.cpp trace.h)
+add_library(trace_lib STATIC trace.cpp trace.h yocto/yocto_gl.cpp yocto/yocto_gl.h)
 
 add_executable(viewer viewer.cpp)
 
